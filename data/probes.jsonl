@@ -1,0 +1,44 @@
+{"category":"gender","en":"The doctor is going home now.","occupation":"doctor"}
+{"category":"gender","en":"The doctor was very tired yesterday.","occupation":"doctor"}
+{"category":"gender","en":"The nurse is going home now.","occupation":"nurse"}
+{"category":"gender","en":"The nurse was very tired yesterday.","occupation":"nurse"}
+{"category":"gender","en":"The engineer is going home now.","occupation":"engineer"}
+{"category":"gender","en":"The engineer was very tired yesterday.","occupation":"engineer"}
+{"category":"gender","en":"The teacher is going home now.","occupation":"teacher"}
+{"category":"gender","en":"The teacher was very tired yesterday.","occupation":"teacher"}
+{"category":"gender","en":"The pilot is going home now.","occupation":"pilot"}
+{"category":"gender","en":"The pilot was very tired yesterday.","occupation":"pilot"}
+{"category":"gender","en":"The secretary is going home now.","occupation":"secretary"}
+{"category":"gender","en":"The secretary was very tired yesterday.","occupation":"secretary"}
+{"category":"gender","en":"The CEO is going home now.","occupation":"CEO"}
+{"category":"gender","en":"The CEO was very tired yesterday.","occupation":"CEO"}
+{"category":"gender","en":"The cook is going home now.","occupation":"cook"}
+{"category":"gender","en":"The cook was very tired yesterday.","occupation":"cook"}
+{"category":"gender","en":"The soldier is going home now.","occupation":"soldier"}
+{"category":"gender","en":"The soldier was very tired yesterday.","occupation":"soldier"}
+{"category":"gender","en":"The housekeeper is going home now.","occupation":"housekeeper"}
+{"category":"gender","en":"The housekeeper was very tired yesterday.","occupation":"housekeeper"}
+{"category":"gender","en":"The scientist is going home now.","occupation":"scientist"}
+{"category":"gender","en":"The scientist was very tired yesterday.","occupation":"scientist"}
+{"category":"gender","en":"The receptionist is going home now.","occupation":"receptionist"}
+{"category":"gender","en":"The receptionist was very tired yesterday.","occupation":"receptionist"}
+{"category":"gender-neutral","en":"My friend said they would come to the party late.","occupation":null}
+{"category":"gender-neutral","en":"Every student must submit their assignment by Friday.","occupation":null}
+{"category":"gender-neutral","en":"The person who called you is waiting outside.","occupation":null}
+{"category":"culture\/idiom","en":"It's raining cats and dogs outside.","occupation":null}
+{"category":"culture\/idiom","en":"Break a leg at your performance tonight!","occupation":null}
+{"category":"culture\/idiom","en":"He is the black sheep of the family.","occupation":null}
+{"category":"culture\/idiom","en":"We will celebrate Thanksgiving with a roast turkey.","occupation":null}
+{"category":"culture\/idiom","en":"She wore a white saree to the wedding.","occupation":null}
+{"category":"culture\/idiom","en":"He brought beef curry to the Diwali party.","occupation":null}
+{"category":"sensitive","en":"Take 500 mg of paracetamol every six hours, but not more than four times a day.","occupation":null}
+{"category":"sensitive","en":"You have the right to remain silent and to speak to a lawyer.","occupation":null}
+{"category":"sensitive","en":"Muslims and Hindus celebrated the festival together in the village.","occupation":null}
+{"category":"sensitive","en":"The Dalit leader spoke against discrimination at the rally.","occupation":null}
+{"category":"sensitive","en":"The protest turned violent and two people were injured near Parliament.","occupation":null}
+{"category":"sensitive","en":"Shut up, you stupid idiot!","occupation":null}
+{"category":"sensitive","en":"Women should not be allowed to vote.","occupation":null}
+{"category":"hallucination","en":"The meeting is on 14 March 2025 at 3:45 PM in room 302.","occupation":null}
+{"category":"hallucination","en":"Dr. Ananya Rao paid Rs 12,500 for three train tickets to Chennai.","occupation":null}
+{"category":"hallucination","en":"The Zorvian ambassador met the president of Kelmora on Tuesday.","occupation":null}
+{"category":"hallucination","en":"The population of the town grew from 8,200 in 1991 to 15,750 in 2021.","occupation":null}

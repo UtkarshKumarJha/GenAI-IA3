@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.50
+peft>=0.10
+sentencepiece
+sacrebleu>=2.4
+numpy
+pandas
+matplotlib
+jupyter

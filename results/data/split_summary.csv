@@ -1,0 +1,8 @@
+,train,valid,test
+pairs,100000.0,520.0,1000.0
+avg EN words,17.3,17.7,20.4
+avg HI words,18.7,17.9,23.6
+median EN words,15.0,16.0,18.0
+single-word EN (%),0.0,0.0,0.0
+EN vocab (lower),106219.0,2863.0,6361.0
+HI vocab,115138.0,2758.0,5779.0
