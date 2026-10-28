@@ -1,0 +1,18 @@
+{
+ "model": "Transformer (from scratch)",
+ "architecture": "encoder-decoder",
+ "adaptation": "trained from scratch",
+ "params": 37619712,
+ "trainable_params": 37619712,
+ "train_pairs": 100000,
+ "train_time_s": 2753.0091821809997,
+ "epochs": 20,
+ "best_val_loss": 4.383769090819427,
+ "tokenizer": "SentencePiece BPE 16000 (joint EN+HI)",
+ "avg_tokens_en": 31.178,
+ "avg_tokens_hi": 33.801,
+ "infer_time_s": 143.83028241400007,
+ "infer_sent_per_s": 6.952638785214973,
+ "quick_bleu": 9.421855228764702,
+ "quick_chrf": 32.836099030189075
+}
