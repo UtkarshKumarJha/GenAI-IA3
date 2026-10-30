@@ -1,0 +1,19 @@
+{
+ "model": "Gemma-3-1B-IT (LoRA)",
+ "architecture": "decoder-only",
+ "adaptation": "LoRA fine-tuning (PEFT)",
+ "params": 999885952,
+ "trainable_params": 13045760,
+ "train_pairs": 10000,
+ "train_time_s": 1624.491365898,
+ "epochs": 1,
+ "val_loss_before": 4.242915917602658,
+ "best_val_loss": 2.068329430245734,
+ "tokenizer": "GemmaTokenizer (262,145 tokens)",
+ "avg_tokens_en": 25.602,
+ "avg_tokens_hi": 32.079,
+ "infer_time_s": 360.1193756849998,
+ "infer_sent_per_s": 2.7768569744348066,
+ "quick_bleu": 14.11052060843405,
+ "quick_chrf": 39.586648240687
+}

@@ -1,0 +1,58 @@
+[    22.4s stdout] train 100,000 | valid 520 | test 1000 | probes 44 | device cuda Tesla T4
+[    45.7s stdout] transformers 5.16.1 | peft 0.20.0
+[    68.3s stdout] parameters: 1235.8 M
+[    68.3s stdout] <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+[    68.3s stdout] 
+[    68.3s stdout] Cutting Knowledge Date: December 2023
+[    68.3s stdout] Today Date: 28 Oct 2026
+[    68.3s stdout] 
+[    68.3s stdout] <|eot_id|><|start_header_id|>user<|end_header_id|>
+[    68.3s stdout] 
+[    68.3s stdout] Translate the following English sentence into Hindi. Reply with only the Hindi translation.
+[    68.3s stdout] 
+[    68.3s stdout] English: Due to financial constraints Dhirubhai had to drop out after high school.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+[    68.3s stdout] 
+[    68.3s stdout] 
+[    68.3s stdout] ['Due', 'Ġto', 'Ġfinancial', 'Ġconstraints', 'ĠD', 'hir', 'ub', 'hai', 'Ġhad', 'Ġto', 'Ġdrop', 'Ġout', 'Ġafter', 'Ġhigh', 'Ġschool', '.']
+[    68.3s stdout] ['à¤Ĩà¤°', 'à¥įà¤¥', 'à¤¿à¤ķ', 'Ġà¤¤', 'à¤Ĥà¤Ĺ', 'à¥Ģ', 'Ġà¤ķ', 'à¥ĩ', 'Ġà¤ķ', 'à¤¾à¤°à¤£', 'Ġà¤§', 'à¥Ģà¤°', 'à¥Ĥ', 'à¤Ń', 'à¤¾à¤Ī', 'Ġà¤ķ', 'à¥ĭ', 'Ġà¤¹', 'à¤¾à¤Ī', 'à¤¸', 'à¥įà¤ķ', 'à¥Ĥà¤²', 'Ġà¤ķ', 'à¥ĩ', 'Ġà¤¬']
+[   657.5s stdout] [zero-shot] BLEU 9.60 | chrF 33.10 | 587.7s for 1000 sentences
+[   657.5s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[   657.5s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[   657.5s stdout]   HYP: दीवार के पीछे
+[   657.5s stdout] 
+[   657.5s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[   657.5s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[   657.5s stdout]   HYP: नहीं के लिए उपकरण का उपयोग करने का विकल्प नहीं है, इसके बजाय सभी राज्य निवासियों के अनुपात के आधार पर एक निश्चित शुल्क पर चलने का विकल्प चुनना चाहिए।
+[   657.5s stdout] 
+[   657.5s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[   657.5s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[   657.5s stdout]   HYP: हालांकि, पिछले मृत्यु के कारण से ऑस्ट्रेलियाई यात्री एजेंट मिशेल स्मिथ के मृत्यु के बाद, यह भी देखा जा सकता है कि यह तुरंत अपने घायल यात्रियों की तस्वीरें और संदेशों को साझा करने के लिए तैयार हो सकता है, जिससे एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के परिणाम के रूप में एक सिद्धांतिक अनुसंधान के
+[   657.5s stdout] 
+[   671.5s stdout] 10000 training examples, avg length 125 tokens
+[   737.3s stdout] trainable params: 11,272,192 || all params: 1,247,086,592 || trainable%: 0.9039
+[   958.4s stdout] step 200 | loss 1.532 | 3.7 min
+[  1181.8s stdout] step 400 | loss 1.439 | 7.4 min
+[  1408.7s stdout] step 600 | loss 1.390 | 11.2 min
+[  1626.5s stdout] step 800 | loss 1.384 | 14.8 min
+[  1857.9s stdout] step 1000 | loss 1.388 | 18.7 min
+[  2082.2s stdout] step 1200 | loss 1.333 | 22.4 min
+[  2299.4s stdout] step 1400 | loss 1.343 | 26.0 min
+[  2518.1s stdout] step 1600 | loss 1.313 | 29.7 min
+[  2740.4s stdout] step 1800 | loss 1.306 | 33.4 min
+[  2962.2s stdout] step 2000 | loss 1.306 | 37.1 min
+[  3183.7s stdout] step 2200 | loss 1.299 | 40.8 min
+[  3409.4s stdout] step 2400 | loss 1.279 | 44.5 min
+[  3586.4s stdout] LoRA fine-tuning: 46.3 min | validation loss 1.385 -> 1.165
+[  4256.2s stdout] [LoRA] BLEU 11.08 | chrF 36.03 | 668.7s for 1000 sentences
+[  4256.2s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[  4256.2s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[  4256.2s stdout]   HYP: कारणों से दीर्घकालीन वित्तीय सीमा के कारण डीर्घकालीन विद्यालय से निकलना पड़ा।
+[  4256.2s stdout] 
+[  4256.2s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[  4256.2s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[  4256.2s stdout]   HYP: या वे चुन सकते हैं कि कोई उपकरण न हो, बल्कि उन्हें सारे राज्य निवासियों द्वारा दूरी की औसत संख्या पर एक निश्चित शुल्क के लिए उपकरण का उपयोग करना चाहिए।
+[  4256.2s stdout] 
+[  4256.2s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[  4256.2s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[  4256.2s stdout]   HYP: हालांकि पिछले महीने में थाईलैंड के फुकेट में मिशेल स्मिथ की हत्या के बाद भी यह देखने की कोशिश कर रहा है कि यह अपने पर्यटकों के प्रति कैसे सुधार कर सकता है, जिससे एक निर्णय प्राप्त हो सकता है।
+[  4256.2s stdout] 

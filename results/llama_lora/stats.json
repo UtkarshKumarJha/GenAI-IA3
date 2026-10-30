@@ -1,0 +1,19 @@
+{
+ "model": "LLaMA-3.2-1B-Instruct (LoRA)",
+ "architecture": "decoder-only",
+ "adaptation": "LoRA fine-tuning (PEFT)",
+ "params": 1235814400,
+ "trainable_params": 11272192,
+ "train_pairs": 10000,
+ "train_time_s": 2780.905868062,
+ "epochs": 1,
+ "val_loss_before": 1.385164534871079,
+ "best_val_loss": 1.1650427796008513,
+ "tokenizer": "TokenizersBackend (128,256 tokens)",
+ "avg_tokens_en": 25.597,
+ "avg_tokens_hi": 63.697,
+ "infer_time_s": 668.7440023700001,
+ "infer_sent_per_s": 1.495340513643551,
+ "quick_bleu": 11.083903412526398,
+ "quick_chrf": 36.02880797712558
+}

@@ -1,0 +1,16 @@
+{
+ "model": "Gemma-3-1B-IT (zero-shot)",
+ "architecture": "decoder-only",
+ "adaptation": "zero-shot prompting",
+ "params": 999885952,
+ "trainable_params": 0,
+ "train_pairs": 0,
+ "train_time_s": 0.0,
+ "tokenizer": "GemmaTokenizer (262,145 tokens)",
+ "avg_tokens_en": 25.602,
+ "avg_tokens_hi": 32.079,
+ "infer_time_s": 255.491136493,
+ "infer_sent_per_s": 3.9140301058052485,
+ "quick_bleu": 12.681057525569589,
+ "quick_chrf": 37.2533418120523
+}

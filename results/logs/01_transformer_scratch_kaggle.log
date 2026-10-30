@@ -1,0 +1,41 @@
+[    18.9s stdout] train 100,000 | valid 520 | test 1000 | probes 44 | device cuda Tesla T4
+[    22.4s stdout] ['▁Due', '▁to', '▁financial', '▁const', 'rain', 'ts', '▁Dh', 'ir', 'ub', 'hai', '▁had', '▁to', '▁drop', '▁out', '▁after', '▁high', '▁school', '.']
+[    22.4s stdout] ['▁आर्थिक', '▁त', 'ंगी', '▁के', '▁कारण', '▁धी', 'रू', 'भाई', '▁को', '▁हा', 'ई', 'स्क', 'ूल', '▁के', '▁बाद', '▁ही', '▁पढ़ाई', '▁छोड़', 'ना', '▁पड़', '▁गई', '।']
+[    22.4s stdout] en avg tokens per sentence: 24.1
+[    22.4s stdout] hi avg tokens per sentence: 25.3
+[    23.1s stdout] parameters: 37.6 M
+[   169.2s stdout] epoch  1 | train 6.981 | val 6.505 (ppl 668.4) | 138s
+[   307.5s stdout] epoch  2 | train 5.713 | val 5.708 (ppl 301.3) | 138s
+[   445.5s stdout] epoch  3 | train 5.186 | val 5.384 (ppl 217.9) | 138s
+[   583.2s stdout] epoch  4 | train 4.781 | val 5.115 (ppl 166.4) | 137s
+[   720.7s stdout] epoch  5 | train 4.466 | val 4.906 (ppl 135.1) | 137s
+[   858.2s stdout] epoch  6 | train 4.224 | val 4.733 (ppl 113.7) | 137s
+[   995.3s stdout] epoch  7 | train 4.040 | val 4.646 (ppl 104.2) | 137s
+[  1132.9s stdout] epoch  8 | train 3.888 | val 4.587 (ppl 98.2) | 137s
+[  1270.5s stdout] epoch  9 | train 3.763 | val 4.519 (ppl 91.7) | 137s
+[  1408.1s stdout] epoch 10 | train 3.656 | val 4.490 (ppl 89.1) | 137s
+[  1545.5s stdout] epoch 11 | train 3.562 | val 4.466 (ppl 87.0) | 137s
+[  1682.9s stdout] epoch 12 | train 3.479 | val 4.435 (ppl 84.4) | 137s
+[  1820.4s stdout] epoch 13 | train 3.406 | val 4.413 (ppl 82.5) | 137s
+[  1958.1s stdout] epoch 14 | train 3.340 | val 4.403 (ppl 81.7) | 137s
+[  2095.8s stdout] epoch 15 | train 3.278 | val 4.403 (ppl 81.7) | 138s
+[  2233.5s stdout] epoch 16 | train 3.221 | val 4.391 (ppl 80.7) | 138s
+[  2371.1s stdout] epoch 17 | train 3.170 | val 4.384 (ppl 80.1) | 137s
+[  2508.9s stdout] epoch 18 | train 3.123 | val 4.394 (ppl 80.9) | 138s
+[  2646.4s stdout] epoch 19 | train 3.080 | val 4.394 (ppl 80.9) | 138s
+[  2783.8s stdout] epoch 20 | train 3.038 | val 4.401 (ppl 81.5) | 137s
+[  2783.8s stdout] early stopping
+[  2783.8s stdout] training time 45.9 min
+[  2928.8s stdout] [Transformer] BLEU 9.42 | chrF 32.84 | 143.8s for 1000 sentences
+[  2928.8s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[  2928.8s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[  2928.8s stdout]   HYP: आर्थिक बाधाओं के कारण भाई भाई को उच्च विद्यालय से निकालना पड़ा।
+[  2928.8s stdout] 
+[  2928.8s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[  2928.8s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[  2928.8s stdout]   HYP: या वे सभी राज्यों के निवासी मील की दूरी पर, मील की दूरी पर, सीधे सीधे सीधे सीधे सीधे, डिज़ाइन करने के बजाय विकल्प नहीं चुन सकते हैं.
+[  2928.8s stdout] 
+[  2928.8s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[  2928.8s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[  2928.8s stdout]   HYP: लेकिन फोकस में ऑस्ट्रेलियाई यात्रा एजेंट के हाल के हालिया हवाई जहाज के हाल के हरा का अनुसरण किया जा सकता है, थलैण्ड में था और ठण्डे की छवि भी इसकी गलत तस्वीरें देख सकती है।
+[  2928.8s stdout] 

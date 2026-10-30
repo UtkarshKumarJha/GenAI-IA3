@@ -1,0 +1,16 @@
+{
+ "model": "LLaMA-3.2-1B-Instruct (zero-shot)",
+ "architecture": "decoder-only",
+ "adaptation": "zero-shot prompting",
+ "params": 1235814400,
+ "trainable_params": 0,
+ "train_pairs": 0,
+ "train_time_s": 0.0,
+ "tokenizer": "TokenizersBackend (128,256 tokens)",
+ "avg_tokens_en": 25.597,
+ "avg_tokens_hi": 63.697,
+ "infer_time_s": 587.6924518000001,
+ "infer_sent_per_s": 1.7015702633872076,
+ "quick_bleu": 9.60440330697115,
+ "quick_chrf": 33.10338518254656
+}

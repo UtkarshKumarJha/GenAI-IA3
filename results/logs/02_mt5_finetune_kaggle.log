@@ -1,0 +1,23 @@
+[    18.1s stdout] train 100,000 | valid 520 | test 1000 | probes 44 | device cuda Tesla T4
+[    38.0s stdout] transformers 5.16.1
+[    54.0s stdout] parameters: 300.2 M
+[    54.0s stdout] ['▁Due', '▁to', '▁', 'financial', '▁c', 'onstraint', 's', '▁Dhi', 'ru', 'bhai', '▁had', '▁to', '▁drop', '▁out', '▁after', '▁high', '▁school', '.']
+[    54.0s stdout] ['▁आ', 'र्थ', 'िक', '▁त', 'ंगी', '▁के', '▁', 'कारण', '▁', 'धी', 'रू', 'भा', 'ई', '▁को', '▁हा', 'ई', 'स्क', 'ूल', '▁के', '▁', 'बाद', '▁', 'ही', '▁पढ़', 'ाई']
+[    71.6s stdout] validation loss before fine-tuning: 26.547
+[  2962.4s stdout] epoch 1 | train 3.195 | val 2.241 (ppl 9.4) | 48.2 min
+[  5861.6s stdout] epoch 2 | train 2.298 | val 2.076 (ppl 8.0) | 48.3 min
+[  8759.2s stdout] epoch 3 | train 2.104 | val 2.021 (ppl 7.5) | 48.3 min
+[  8761.8s stdout] fine-tuning time 144.8 min
+[  8840.1s stdout] [mT5] BLEU 11.19 | chrF 34.45 | 77.0s for 1000 sentences
+[  8840.1s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[  8840.1s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[  8840.1s stdout]   HYP: वित्तीय विवादों के कारण दीरूभाई को उच्च स्कूल के बाद बाहर निकालना पड़ा।
+[  8840.1s stdout] 
+[  8840.1s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[  8840.1s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[  8840.1s stdout]   HYP: या वे सभी राज्यों द्वारा चालू सभी मीलों पर आधारित लंबाई की औसत संख्या पर आधारित एक फ्लैट शुल्क देने के बजाय एक उपकरण नहीं चुन सकते।
+[  8840.1s stdout] 
+[  8840.1s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[  8840.1s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[  8840.1s stdout]   HYP: तथापि, तेलुगु में अफ्रीका के यात्रा एजेंट मिस्टर शॉस के हाल के मृत्यु के बाद, तेलुगु में अपनी लौटने वाली पर्यटन छवि को भी हटाने की तलाश कर सकते हैं।
+[  8840.1s stdout] 

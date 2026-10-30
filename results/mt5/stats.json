@@ -1,0 +1,18 @@
+{
+ "model": "mT5-small (fine-tuned)",
+ "architecture": "encoder-decoder",
+ "adaptation": "full fine-tuning",
+ "params": 300176768,
+ "trainable_params": 300176768,
+ "train_pairs": 100000,
+ "train_time_s": 8689.343495524,
+ "epochs": 3,
+ "best_val_loss": 2.0205830905724342,
+ "tokenizer": "SentencePiece unigram 250k (mC4, 101 languages)",
+ "avg_tokens_en": 32.412,
+ "avg_tokens_hi": 49.621,
+ "infer_time_s": 76.99002572999962,
+ "infer_sent_per_s": 12.988695490334718,
+ "quick_bleu": 11.18629806561585,
+ "quick_chrf": 34.44930895481645
+}

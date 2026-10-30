@@ -1,0 +1,52 @@
+[    25.7s stdout] train 100,000 | valid 520 | test 1000 | probes 44 | device cuda Tesla T4
+[    52.3s stdout] transformers 5.16.1 | peft 0.20.0
+[    75.7s stdout] parameters: 999.9 M
+[    75.7s stdout] <bos><start_of_turn>user
+[    75.7s stdout] Translate the following English sentence into Hindi. Reply with only the Hindi translation.
+[    75.7s stdout] 
+[    75.7s stdout] English: Due to financial constraints Dhirubhai had to drop out after high school.<end_of_turn>
+[    75.7s stdout] <start_of_turn>model
+[    75.7s stdout] 
+[    75.7s stdout] ['Due', '▁to', '▁financial', '▁constraints', '▁Dh', 'ir', 'ub', 'hai', '▁had', '▁to', '▁drop', '▁out', '▁after', '▁high', '▁school', '.']
+[    75.7s stdout] ['आ', 'र्थिक', '▁त', 'ंगी', '▁के', '▁कारण', '▁धी', 'रू', 'भाई', '▁को', '▁हाई', 'स्कूल', '▁के', '▁बाद', '▁ही', '▁पढ़ाई', '▁छोड़', 'ना', '▁पड़', '▁गई', '।']
+[   332.5s stdout] [zero-shot] BLEU 12.68 | chrF 37.25 | 255.5s for 1000 sentences
+[   332.5s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[   332.5s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[   332.5s stdout]   HYP: चूँकि वित्तीय बाधाओं के कारण, धीबरवी ने हाई स्कूल छोड़ने के बाद छोड़ दिया।
+[   332.5s stdout] 
+[   332.5s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[   332.5s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[   332.5s stdout]   HYP: वे सभी राज्य के नागरिकों द्वारा यात्रा की औसत संख्या के आधार पर एक डिवाइस चुनने में सक्षम हो सकते हैं, या वे किसी भी डिवाइस का उपयोग करने से इनकार कर सकते हैं।
+[   332.5s stdout] 
+[   332.5s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[   332.5s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[   332.5s stdout]   HYP: हालांकि, हाल ही में ऑस्ट्रेलिया के यात्रा एजेंट मिकेल स्मिथ की हत्या के बाद, थाईलैंड में Phuket में उसकी क्षतिग्रस्त पर्यटन छवि को ठीक करने की कोशिश में एक बचाव की उम्मीद की जा सकती है, जिसके परिणामस्वरूप एक बमुश्किल जीत हुई।
+[   332.5s stdout] 
+[   342.5s stdout] 10000 training examples, avg length 76 tokens
+[   381.5s stdout] trainable params: 13,045,760 || all params: 1,012,931,712 || trainable%: 1.2879
+[   511.1s stdout] step 200 | loss 3.044 | 2.2 min
+[   642.0s stdout] step 400 | loss 2.515 | 4.3 min
+[   773.3s stdout] step 600 | loss 2.434 | 6.5 min
+[   901.0s stdout] step 800 | loss 2.430 | 8.7 min
+[  1036.2s stdout] step 1000 | loss 2.427 | 10.9 min
+[  1167.8s stdout] step 1200 | loss 2.318 | 13.1 min
+[  1295.3s stdout] step 1400 | loss 2.339 | 15.2 min
+[  1422.4s stdout] step 1600 | loss 2.262 | 17.3 min
+[  1553.5s stdout] step 1800 | loss 2.300 | 19.5 min
+[  1682.4s stdout] step 2000 | loss 2.280 | 21.7 min
+[  1811.7s stdout] step 2200 | loss 2.274 | 23.8 min
+[  1943.0s stdout] step 2400 | loss 2.236 | 26.0 min
+[  2046.3s stdout] LoRA fine-tuning: 27.1 min | validation loss 4.243 -> 2.068
+[  2407.7s stdout] [LoRA] BLEU 14.11 | chrF 39.59 | 360.1s for 1000 sentences
+[  2407.7s stdout]   EN : Due to financial constraints Dhirubhai had to drop out after high school.
+[  2407.7s stdout]   REF: आर्थिक तंगी के कारण धीरूभाई को हाईस्कूल के बाद ही पढ़ाई छोड़ना पड़ गई।
+[  2407.7s stdout]   HYP: वित्तीय बाधाओं के कारण डीएचआरबीवी ने उच्च विद्यालय में पढ़ाई छोड़ दी।
+[  2407.7s stdout] 
+[  2407.7s stdout]   EN : Or they can choose not to have a device at all, opting instead to pay a flat fee based on the average number of miles driven by all state residents.
+[  2407.7s stdout]   REF: या फिर से कोई भी डिवाइस न लेना चुन सकते हैं, बल्कि राज्य के निवासियों द्वारा तय किए जाने वाले औसत मीलों के आधार पर निर्धारित शुल्क देना चुन सकते हैं।
+[  2407.7s stdout]   HYP: या वे किसी भी उपकरण का उपयोग नहीं कर सकते, बल्कि औसत रूप से सभी राज्यवासियों द्वारा चलाए गए मील की संख्या पर आधारित एक फ्लैट शुल्क का भुगतान कर सकते हैं।
+[  2407.7s stdout] 
+[  2407.7s stdout]   EN : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+[  2407.7s stdout]   REF: वैसे हाल ही में फुकेट में ऑस्ट्रेलियाई ट्रैवेल एजेन्ट माइकल स्मिथ की हत्या के पश्चात, थाईलैण्ड भी अपने खराब पर्यटक छवि को सुधारने के प्रयास में दोषमुक्ति भी दे सकता है।
+[  2407.7s stdout]   HYP: हालांकि, हाल ही में Phuket, थाईलैंड में ऑस्ट्रेलियाई यात्रा एजेंट मिशेल स्मिथ की हत्या के बाद, पर्यटन के नुकसान को ठीक करने की कोशिश कर रहा है, जिसके परिणामस्वरूप एक अभियोग में से मुक्ति मिल सकती है।
+[  2407.7s stdout] 

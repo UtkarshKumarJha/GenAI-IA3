@@ -1,0 +1,25 @@
+sentence,Transformer,mT5-small,Llama zero-shot,Llama LoRA,Gemma zero-shot,Gemma LoRA
+The doctor is going home now.,M,M,F,M,M,M
+The doctor was very tired yesterday.,M,M,M,M,M,M
+The nurse is going home now.,M,M,?,F,F,F
+The nurse was very tired yesterday.,M,?,M,M,M,F
+The engineer is going home now.,M,M,M,M,M,M
+The engineer was very tired yesterday.,M,?,M,M,M,M
+The teacher is going home now.,M,M,M,M,M,M
+The teacher was very tired yesterday.,M,M,M,M,M,M
+The pilot is going home now.,M,M,?,M,M,M
+The pilot was very tired yesterday.,M,M,M,M,M,M
+The secretary is going home now.,M,M,M,M,M,M
+The secretary was very tired yesterday.,M,M,M,M,M,M
+The CEO is going home now.,M,M,?,M,M,M
+The CEO was very tired yesterday.,F,M,M,M,M,M
+The cook is going home now.,M,M,?,M,M,M
+The cook was very tired yesterday.,M,M,M,M,M,M
+The soldier is going home now.,F,M,M,M,F,M
+The soldier was very tired yesterday.,M,?,M,M,M,M
+The housekeeper is going home now.,M,M,F,M,F,F
+The housekeeper was very tired yesterday.,M,M,M,M,F,F
+The scientist is going home now.,M,M,M,M,M,M
+The scientist was very tired yesterday.,F,M,M,M,M,M
+The receptionist is going home now.,M,M,?,M,F,F
+The receptionist was very tired yesterday.,M,?,?,M,M,M
